@@ -1,36 +1,65 @@
 p {
 	color:rgb(212,175,55);
-	text-align: left;
+	
 	font-family: sans-serif;
 }
 
 li{
 	color:rgb(212,175,55);
+	font-family: sans-serif;
 }
 
 h1 {
 	color:rgb(212,175,55);
-	text-align: left;
+	
 	font-family: sans-serif;
 }
 h2{
 	color:rgb(212,175,55);
-	text-align: left;
+	
 	font-family: sans-serif;
 }
 
 a {
 	color:rgb(212,175,55);
-	text-align: left;
+	
 	font-family: sans-serif;
+
 }
+
+
+i{
+	color:rgb(212,175,55)
+
+
+}
+
 
 .colorblanco{
 	color:#FFFFFF;
 }
-.centrado{
+
+
+.colazul{
+	color:rgb(145,188,210);
+
+}
+
+
+.centrado1{
 	text-align: center; 
 
+}
+
+
+
+.izq{
+	text-align: left;
+}
+
+
+.dere{
+	text-align: right;
 }
 
 
@@ -56,4 +85,11 @@ text-decoration: none;
 #navegador li a:hover{
 background-color: #333333;
 color: #ffffff;
+}
+
+
+
+.columnas{
+column-count:3;
+column-gap:20px;
 }
